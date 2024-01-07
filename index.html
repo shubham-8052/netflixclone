@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix-like Homepage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #141414;
+            color: #fff;
+        }
+
+        header {
+            padding: 20px;
+            text-align: center;
+            background-color: #111;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #000;
+            padding: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        .main-content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .movie {
+            flex: 1 1 300px;
+            background-color: #333;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .movie img {
+            width: 100%;
+            height: auto;
+            border-bottom: 1px solid #555;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #111;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Netflix-like Homepage</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">TV Shows</a>
+        <a href="#">Movies</a>
+        <a href="#">My List</a>
+    </nav>
+
+    <section>
+        <h2>Recommended for You</h2>
+        <div class="main-content">
+            <!-- Sample Movie -->
+            <div class="movie">
+                <img src="https://via.placeholder.com/300" alt="Movie Poster">
+                <h3>Movie Title</h3>
+            </div>
+
+            <!-- Add more movies as needed -->
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Netflix-like Homepage</p>
+    </footer>
+</body>
+</html>
